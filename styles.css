@@ -1,0 +1,38 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  
+}
+
+#header.hide {
+  transform: translateY(-100%);
+}
+
+body { padding-top: 41rem; }
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 30%;
+  float: left;
+}
+.card img {
+  width: 60%;
+  border-bottom: 1px solid #ccc;
+  border-radius: 8px;
+  border: 1px solid black;
+  display: block;
+  margin-right: auto;
+}
+.details {
+  font-size: 0.9rem;
+  color: #555;
+  float: right;
+}
