@@ -1,0 +1,1 @@
+This website is for learning web development for me(bendeguz-bakos) and for my friend(timocode1)
